@@ -1,0 +1,41 @@
+# vsim testbench 
+# Start time: 12:43:00 on Jan 12,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.types
+# Loading work.testbench(behaviour)
+# Loading work.collatz(rtl)
+# Loading work.sorter(rtl)
+# Loading work.climber(rtl)
+add wave -position insertpoint  \
+sim:/testbench/collatz_p/all_done \
+sim:/testbench/collatz_p/chain_reg \
+sim:/testbench/collatz_p/clk \
+sim:/testbench/collatz_p/clk_count \
+sim:/testbench/collatz_p/clk_count_reg \
+sim:/testbench/collatz_p/done \
+sim:/testbench/collatz_p/init \
+sim:/testbench/collatz_p/len \
+sim:/testbench/collatz_p/peak \
+sim:/testbench/collatz_p/root \
+sim:/testbench/collatz_p/root_at \
+sim:/testbench/collatz_p/root_reg \
+sim:/testbench/collatz_p/state \
+sim:/testbench/collatz_p/top4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 12:45:02 on Jan 12,2019, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0
